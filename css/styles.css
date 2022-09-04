@@ -6,6 +6,17 @@ body {
   background-color: #ff4c68;
   color: #fff;
 }
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -48,18 +59,11 @@ p {
 .download-button {
   margin: 5% 3% 5% 0;
 }
-.phone-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: relative;
-  left: 15%;
-}
+
 .title-section {
   size: 100%;
 }
-#features {
-  padding: 7% 15%;
-}
+
 .feature-box {
   text-align: center;
   padding: 5%;
@@ -93,4 +97,15 @@ p {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing {
+  margin: 100px;
+  text-align: center;
+}
+.card-body {
+  height: 20rem;
+}
+.pricing-col {
+  padding: 3% 2%;
 }
